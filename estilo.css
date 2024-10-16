@@ -1,0 +1,121 @@
+@import url('https://fonts.cdnfonts.com/css/idroid');
+
+body {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    height: auto;
+    width: auto;
+}
+
+header {
+    background: linear-gradient(to bottom, #53c639, #A4C639);
+    color: white; 
+    padding: 80px;
+    width: auto;
+}
+
+div#titulo > h1 {
+    font-family: 'iDroid', sans-serif;
+    text-align: center;
+}
+
+div#titulo > p {
+    text-align: center;
+}
+
+div#titulo > nav > a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+div#titulo > nav > a:hover{
+    text-decoration: underline;
+
+}
+
+section{
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    height: auto;
+    width: 1000px;
+    box-shadow: 1px 1px 3px black;
+}
+
+h2 {
+    font-family: 'iDroid', sans-serif;
+    color: #1b6700;
+}
+
+.titulo_topico {
+    font-family: 'iDroid', sans-serif;
+    background: linear-gradient(to right, #9bdd84, #b9ffa064);
+    color: #1b6700;
+}
+
+p{
+    text-indent: 2em;
+}
+
+.link{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #1b6700;
+    background-color: #9bdd84;
+}
+.link:hover{
+    text-decoration: underline;
+}
+
+.segundo_link{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #21530f;
+}
+.link:hover{
+    text-decoration: underline;
+}
+
+div#extra > *{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#extra > h3 {
+    background-color: #0f3900;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+div#outros{
+    background-color: #9bdd84;
+    width: auto;
+    height: auto;
+}
+
+#outros > p > a {
+    text-decoration: none;
+}
+
+#outros > p > a:hover {
+    text-decoration: underline;
+}
+
+#outros > ol > li > a {
+    text-decoration: none;
+}
+
+#outros > ol > li > a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center
+    
+}
